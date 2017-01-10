@@ -1,0 +1,16 @@
+Package: pkgpattern
+Type: Package
+Title: Example Package For PACCAR ITD R Package Pattern
+Version: 0.1.0
+Authors@R: person("Danny", "Godbout", email = "danny.godbout@paccar.com", role = c("aut", "cre"))
+Description: This package is a simple example of a package structure
+	to support PACCAR ITD's R Package Pattern.
+Depends: R(>= 3.3.0)
+License: file LICENSE
+LazyData: TRUE
+RoxygenNote: 5.0.1
+Imports: rpart,
+    stats
+Suggests: knitr,
+    rmarkdown
+VignetteBuilder: knitr
